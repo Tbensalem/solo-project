@@ -1,0 +1,77 @@
+* {
+    background: #4b6cb7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #1D8A99
+}
+
+#game {
+    background: #FC354C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0ABFBC, #FC354C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width:  1000px;
+    height: 500px;
+    border: 3px solid black;
+}
+
+#lButton {
+    display: flex;
+    margin: auto;
+    background: #DAE2F8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D6A4A4, #DAE2F8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D6A4A4, #DAE2F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    width: 100px;
+    height: 50px;
+    border-radius: 2em;
+    align-content: center;
+}
+
+#leaderboardList{
+    background: #AFE3C0;
+
+    table{
+        background: #AFE3C0;
+    }
+    
+    thead {
+        background: #AFE3C0;
+    }
+
+    tr {
+        background: #AFE3C0;
+    }
+
+    td{
+        background: #AFE3C0;
+    }
+
+    th {
+        background: #AFE3C0;
+    }
+}
+
+#leaderboardToggle{
+    background: #AFE3C0;
+
+    
+}
+
+
+#leaderboardToggle {
+    display: flex;
+    margin: auto;
+    border: 5px solid #AA7DCE;
+    width: 300px;
+    height: auto;
+}
